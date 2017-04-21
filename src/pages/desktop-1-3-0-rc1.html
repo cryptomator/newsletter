@@ -1,0 +1,30 @@
+---
+subject: Cryptomator 1.3.0-rc1 Test
+description: The first release candidate of Cryptomator 1.3.0 has been released and we're looking for testers.
+---
+<container>
+  {{> header}}
+  {{> logo}}
+  <row>
+    <columns>
+      <h1 class="text-center">Cryptomator 1.3.0-rc1</h1>
+      <p>When we first started with Cryptomator, we had all the source code in one big project. In preparation for the FUSE/Dokany integration, we wanted to modularize its core components. In fact, we had to completely rewrite Cryptomator. The cryptographic code is now available as <a href="https://github.com/cryptomator/cryptolib">CryptoLib</a> and <a href="https://github.com/cryptomator/cryptofs">CryptoFS</a>. With that, we're able to write more managable adapters like <a href="https://github.com/cryptomator/webdav-nio-adapter">WebDAV</a> and FUSE/Dokany for version 1.4.</p>
+      <h2 class="text-center">How to Test</h2>
+      <p>We'd like to keep the distribution simple. We're offering binaries for Windows (64 Bit), macOS, and Debian (64 Bit).</p>
+      <ul>
+        <li><a href="https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-1.3.0-rc1-x64.exe">Download Cryptomator 1.3.0-rc1 for Windows (64 Bit)</a></li>
+        <li><a href="https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-1.3.0-rc1.dmg">Download Cryptomator 1.3.0-rc1 for macOS</a></li>
+        <li><a href="https://bintray.com/cryptomator/cryptomator-deb/download_file?file_path=cryptomator-1.3.0-rc1-amd64.deb">Download Cryptomator 1.3.0-rc1 for Debian (64 Bit)</a></li>
+      </ul>
+      <p>If your system is not listed, you can also download version 1.3.0-rc1 as a JAR file <a href="https://github.com/cryptomator/cryptomator/releases/tag/1.3.0-rc1">here</a>, which requires the following installed on your system:</p>
+      <ul>
+        <li>Java 8 (min. 8u51, we recommend to use the current version)</li>
+        <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html">JCE unlimited strength policy files</a> (needed for 256-bit keys)</li>
+      </ul>
+      <p><strong>Please use a test vault or ideally a backup/copy of your productive vault.</strong> If Cryptomator isn't behaving as expected and the issue isn't reproducible with version 1.2, please let us know.</p>
+      <p>You can send us feedback via <a href="https://github.com/cryptomator/cryptomator/issues">GitHub</a> or <a href="https://cryptomator.org/contact/">email</a>.</p>
+      <p class="text-center">Full release notes are available <a href="https://github.com/cryptomator/cryptomator/releases/tag/1.3.0-rc1">here</a>.</p>
+    </columns>
+  </row>
+  {{> footer}}
+</container>
