@@ -1,0 +1,34 @@
+---
+subject: Cryptomator 1.3.0 RC 3
+description: The third release candidate of Cryptomator 1.3.0 has been released and we're looking for testers.
+---
+<container>
+  {{> header}}
+  {{> logo}}
+  <row>
+    <columns>
+      <h1 class="text-center">Cryptomator 1.3.0 RC 3</h1>
+      <p>When we first started with Cryptomator, we had all the source code in one big project. In preparation for the FUSE/Dokany integration, we wanted to modularize its core components. In fact, we had to completely rewrite Cryptomator. The cryptographic code is now available as <a href="https://github.com/cryptomator/cryptolib">CryptoLib</a> and <a href="https://github.com/cryptomator/cryptofs">CryptoFS</a>. With that, we're able to write more manageable adapters like <a href="https://github.com/cryptomator/webdav-nio-adapter">WebDAV</a> and FUSE/Dokany for version 1.4.</p>
+      <p><strong>This is a prerelease and is only intended for testing. Wait for the stable release for production purposes.</strong></p>
+      <p>Full release notes are available <a href="https://github.com/cryptomator/cryptomator/releases/tag/1.3.0-rc3">here</a>.</p>
+      <h2 class="text-center">Download Prerelease Build</h2>
+      <p>We'd like to keep the distribution simple. We're offering binaries for Windows (64/32 Bit), macOS, and Debian (64 Bit).</p>
+      <ul>
+        <li><a href="https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-1.3.0-rc3-x64.exe">Download Cryptomator 1.3.0-rc3 for Windows (64 Bit)</a></li>
+        <li><a href="https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-1.3.0-rc3-x86.exe">Download Cryptomator 1.3.0-rc3 for Windows (32 Bit)</a></li>
+        <li><a href="https://bintray.com/cryptomator/cryptomator/download_file?file_path=Cryptomator-1.3.0-rc3.dmg">Download Cryptomator 1.3.0-rc3 for macOS</a></li>
+        <li><a href="https://bintray.com/cryptomator/cryptomator-deb/download_file?file_path=cryptomator-1.3.0-rc3-amd64.deb">Download Cryptomator 1.3.0-rc3 for Debian (64 Bit)</a></li>
+      </ul>
+      <p><strong>Please use a test vault or ideally a backup/copy of your productive vault.</strong> If Cryptomator isn't behaving as expected and the issue isn't reproducible with version 1.2, please let us know.</p>
+      <h2 class="text-center">Other Systems</h2>
+      <p>If your system is not listed, you can also download version 1.3.0-rc3 as a JAR file <a href="https://github.com/cryptomator/cryptomator/releases/tag/1.3.0-rc3">here</a>, which requires the following installed on your system:</p>
+      <ul>
+        <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">Java 8</a> (min. 8u51, we recommend to use the current version)</li>
+        <li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html">JCE unlimited strength policy files</a> (needed for 256-bit keys)</li>
+      </ul>
+      <h2 class="text-center">Feedback</h2>
+      <p>You can send us feedback via <a href="https://github.com/cryptomator/cryptomator/issues">GitHub</a> or <a href="https://cryptomator.org/contact/">email</a>. Thank you for testing!</p>
+    </columns>
+  </row>
+  {{> footer}}
+</container>
