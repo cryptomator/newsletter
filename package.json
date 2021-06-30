@@ -1,53 +1,15 @@
 {
-  "name": "foundation-emails-template",
-  "version": "1.0.0",
-  "description": "Basic template for a Foundation for Emails project.",
-  "repository": "zurb/foundation-emails-template",
-  "main": "gulpfile.babel.js",
+  "private": true,
   "scripts": {
-    "start": "gulp",
-    "build": "gulp --production",
-    "zip": "gulp zip --production",
-    "litmus": "gulp litmus --production"
+    "local": "maizzle build",
+    "production": "maizzle build production",
+    "watch": "maizzle serve"
   },
-  "author": "ZURB <foundation@zurb.com>",
-  "license": "MIT",
   "dependencies": {
-    "foundation-emails": "^2.2.1"
+    "@maizzle/framework": "^3.5.3",
+    "markdown-it-emoji": "^2.0.0"
   },
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "beepbeep": "^1.3.0",
-    "browser-sync": "^2.26.7",
-    "colors": "^1.4.0",
-    "gulp": "^4.0.2",
-    "gulp-awspublish": "^4.1.1",
-    "gulp-cli": "^2.2.0",
-    "gulp-html-src": "^1.0.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-if": "^3.0.0",
-    "gulp-imagemin": "^7.1.0",
-    "gulp-inline-css": "^3.5.0",
-    "gulp-litmus": "0.0.7",
-    "gulp-load-plugins": "^2.0.3",
-    "gulp-rename": "^2.0.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
-    "gulp-zip": "^5.0.1",
-    "inky": "^1.3.6",
-    "lazypipe": "^1.0.2",
-    "merge-stream": "^2.0.0",
-    "panini": "^1.6.3",
-    "rimraf": "^3.0.2",
-    "siphon-media-query": "^1.0.0",
-    "yargs": "^15.3.1"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  }
+  "browserslist": [
+    "> 1%"
+  ]
 }

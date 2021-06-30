@@ -1,0 +1,8 @@
+.prose a {
+  color: theme('colors.cryptomator.primary');
+  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: underline !important;
+}

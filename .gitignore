@@ -1,8 +1,9 @@
-.DS_Store
 node_modules
+build_local
+build_production
+.vscode
+.idea
+Thumbs.db
+.DS_Store
 npm-debug.log
-bower_components
-dist
-.sass-cache
-.awspublish*
-config.json
+yarn-error.log
