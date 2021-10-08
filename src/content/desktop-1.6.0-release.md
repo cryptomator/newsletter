@@ -1,4 +1,6 @@
 Hello Community,
+
+
 We are happy to announce that the Cryptomator Update 1.6.0 will be released very soon.
 To bridge the waiting time we have summarised the most important changes in a blog post. Additionally, there is an in-depth article about the new vault format shipped with version 1.6.0.
 
@@ -12,7 +14,7 @@ Your Skymatic Team
 
 ---
 
-## Cryptomator 1.6.0: What You Need to Know​
+## Cryptomator 1.6.0: What You Need to Know
 In this blog post, we'd like to give you some news about the upcoming major update of Cryptomator to version 1.6.0.
 We'll be highlighting the most significant changes and new features and make sure that you are ready for the update.
 
@@ -21,7 +23,7 @@ We'll be highlighting the most significant changes and new features and make sur
 ## Vault Format 8
 Yes, a new vault format. The ones who remember the last upgrade might start to groan, because last time the migration process from vault format 6 to 7 was in some cases not without hiccups.
 Don't worry, this time the changes are significantly less invasive!
-​
+
 This article will give motivation for designing the new format, what the changes are in detail, and sketches how the migration process looks like, such that you know what you are up to.
 
 [Continue reading…](https://cryptomator.org/blog/2021/10/09/vault-format-8/)
