@@ -1,33 +1,13 @@
-Hello Community,
-We are happy to announce that the Cryptomator Update 1.6.0 is released today! 🎉
-If you are not already up to date about its features, we released a week ago an heasd-up article about it.
-It summarizes the most important changes and additionally, there exists also an in-depth article about the new vault format shipped with version 1.6.0.
+We are happy to announce that Cryptomator 1.6.0 has been released today! :tada: If you are not already up-to-date about its features, we published a [heads-up article](https://cryptomator.org/blog/2021/10/11/1-6-0-what-you-need-to-know/) about it last week. It summarizes the most important changes and we also wrote an [in-depth article](https://cryptomator.org/blog/2021/10/11/vault-format-8/) about the new vault format shipped with version 1.6.0.
 
-The links to the articles are:
-- https://cryptomator.org/blog/2021/10/09/1-6-0-what-you-need-to-know/
-- https://cryptomator.org/blog/2021/10/09/vault-format-8/
+<img class="rounded" src="https://cryptomator.org/img/blog/cryptomator-1-6-0.png" alt="Cryptomator 1.6.0 Release" />
 
+Besides the updated vault format, we integrated a "Vault Health Check" tool, which can detect and fix structural problems of a vault. It is not a magical fix-all-tool but it can be very useful to detect common problems. We also added new features like auto lock and a plugin API so that Cryptomator is now able to load plugins from a dedicated plugin directory.
 
-Happy reading,
-Your Skymatic Team
-
----
-
-## Cryptomator 1.6.0: What You Need to Know
-In this blog post, we'd like to give you some news about the upcoming major update of Cryptomator to version 1.6.0.
-We'll be highlighting the most significant changes and new features and make sure that you are ready for the update.
-
-[Continue reading…](https://cryptomator.org/blog/2021/10/09/1-6-0-what-you-need-to-know/)
-
-## Vault Format 8
-Yes, a new vault format. The ones who remember the last upgrade might start to groan, because last time the migration process from vault format 6 to 7 was in some cases not without hiccups.
-Don't worry, this time the changes are significantly less invasive!
-
-This article will give motivation for designing the new format, what the changes are in detail, and sketches how the migration process looks like, such that you know what you are up to.
-
-[Continue reading…](https://cryptomator.org/blog/2021/10/09/vault-format-8/)
+Download the latest update [here](https://cryptomator.org/downloads/). To support the ongoing open-source development of Cryptomator, consider [donating](https://cryptomator.org/donate/) or [sponsoring](https://cryptomator.org/sponsors/). :heart:
 
 ## Sponsor Thanks
+
 We'd like to thank [gee-whiz](https://www.gee-whiz.de/) and [Proxy Hub](https://proxy-hub.com/) for sponsoring Cryptomator. :rocket:
 
 <table class="my-16" cellspacing="16">
