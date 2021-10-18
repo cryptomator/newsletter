@@ -1,50 +1,7 @@
 ---
 title: "Cryptomator 2.0 for iOS: Open Source and Beta Release"
 preheader: "Finally, the time has come! The brand new iOS app of Cryptomator can now be tried out in a beta version via TestFlight and the project is now, as previously announced, fully open-source!"
-bodyClass: bg-cryptomator-body-bg
+content_filename: ios-2.0-beta.md
 ---
 
-<extends src="src/layouts/master.html">
-  <block name="template">
-    <table class="w-full font-sans">
-      <tr>
-        <td class="bg-cryptomator-body-bg" align="center">
-          <table class="w-600 sm:w-full">
-            <tr>
-              <td class="p-16" align="center" colspan="2">
-                <a class="text-cryptomator-primary" href="https://cryptomator.org">
-                  <img class="h-32" src="https://static.cryptomator.org/newsletter/logo.png" alt="Cryptomator">
-                </a>
-              </td>
-            </tr>
-            <tr class="text-gray-500 text-xs">
-              <td class="pb-8 sm:px-16" align="left">
-                {{{ page.title }}}
-              </td>
-              <td class="pb-8 sm:px-16" align="right">
-                <a class="text-gray-500 no-underline hover:underline" href="[LINK_BROWSER]">View this email in your browser</a>
-              </td>
-            </tr>
-            <tr>
-              <td class="sm:px-16" align="center" colspan="2">
-                <table class="w-full">
-                  <tr>
-                    <td class="prose bg-white text-cryptomator-body-color rounded text-base leading-24 px-48 py-32 sm:px-16 sm:py-8">
-                      <md src="src/content/ios-2.0-beta.md"></md>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-            <tr class="text-gray-500 text-xs">
-              <td class="text-xs pt-8 sm:px-16" align="left" colspan="2">
-                <div class="inline-block pb-8 pr-8"><a class="text-gray-500 no-underline hover:underline" href="[LINK_UNSUBSCRIBE]">unsubscribe from this list</a></div>
-                <div class="inline-block pb-16"><a class="text-gray-500 no-underline hover:underline" href="[LINK_PREFERENCES]">update subscription preferences</a></div>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-  </block>
-</extends>
+<extends src="src/layouts/newsletter.html"></extends>
