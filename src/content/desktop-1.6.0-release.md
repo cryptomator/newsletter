@@ -1,10 +1,9 @@
 Hello Community,
+We are happy to announce that the Cryptomator Update 1.6.0 is released today! 🎉
+If you are not already up to date about its features, we released a week ago an heasd-up article about it.
+It summarizes the most important changes and additionally, there exists also an in-depth article about the new vault format shipped with version 1.6.0.
 
-
-We are happy to announce that the Cryptomator Update 1.6.0 will be released very soon.
-To bridge the waiting time we have summarised the most important changes in a blog post. Additionally, there is an in-depth article about the new vault format shipped with version 1.6.0.
-
-If you haven't read the blog posts yet, we have linked them here for you.
+The links to the articles are:
 - https://cryptomator.org/blog/2021/10/09/1-6-0-what-you-need-to-know/
 - https://cryptomator.org/blog/2021/10/09/vault-format-8/
 
