@@ -1,7 +1,7 @@
 Finally, the time has come! :tada: The brand new iOS app of Cryptomator can now be tried out in a beta version via TestFlight and the project is now fully open-source! This means that the entire Cryptomator family is now open-source, consisting of the Desktop, Android, and iOS versions.
 
-- Beta via TestFlight: [https://testflight.apple.com/join/WMtYSrzD](https://testflight.apple.com/join/WMtYSrzD)
-- Repository on GitHub: [https://github.com/cryptomator/ios](https://github.com/cryptomator/ios)
+- Beta via TestFlight: <https://testflight.apple.com/join/WMtYSrzD>
+- Repository on GitHub: <https://github.com/cryptomator/ios>
 
 <a href="https://cryptomator.org/blog/2021/06/30/ios-2.0-beta/">
   <img class="rounded" src="https://cryptomator.org/img/blog/ios-2.0-beta.png" alt="Cryptomator 2.0 for iOS: Open Source and Beta Release" />
