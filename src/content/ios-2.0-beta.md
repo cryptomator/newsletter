@@ -15,9 +15,9 @@ We are looking forward to your feedback and contributions and are very grateful 
 
 We'd like to thank [gee-whiz](https://www.gee-whiz.de/) and [Proxy Hub](https://proxy-hub.com/) for sponsoring Cryptomator. :rocket:
 
-<table class="my-16" cellspacing="16">
+<table class="my-4" cellspacing="16">
   <tr>
-    <td class="pr-8"><a href="https://www.gee-whiz.de/"><img class="h-64" src="https://cryptomator.org/img/sponsors/geewhiz.svg" alt="gee-whiz"></a></td>
-    <td class="pl-8"><a href="https://proxy-hub.com/"><img class="h-64" src="https://cryptomator.org/img/sponsors/proxyhub.svg" alt="Proxy-Hub"></a></td>
+    <td class="pr-2"><a href="https://www.gee-whiz.de/"><img class="h-16" src="https://cryptomator.org/img/sponsors/geewhiz.svg" alt="gee-whiz"></a></td>
+    <td class="pl-2"><a href="https://proxy-hub.com/"><img class="h-16" src="https://cryptomator.org/img/sponsors/proxyhub.svg" alt="Proxy-Hub"></a></td>
   </tr>
 </table>

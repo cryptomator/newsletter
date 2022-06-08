@@ -1,4 +1,4 @@
-We are happy to announce that Cryptomator 1.6.0 has been released! :tada: If you are not already up-to-date about its features, we published a [heads-up article](https://cryptomator.org/blog/2021/10/11/1-6-0-what-you-need-to-know/) about it last week. It summarizes the most important changes and we also wrote an [in-depth article](https://cryptomator.org/blog/2021/10/11/vault-format-8/) about the new vault format shipped with version 1.6.0.
+We are happy to announce that Cryptomator 1.6.0 has been released! :tada: If you are not already up-to-date about its features, we published a [heads-up article](https://cryptomator.org/blog/2021/10/11/1-6-0-what-you-need-to-know/) about it last week. It summarizes the most important changes and we also wrote an [in-depth article](https://cryptomator.org/blog/2021/10/11/vault-format-2/) about the new vault format shipped with version 1.6.0.
 
 <img class="rounded" src="https://cryptomator.org/img/blog/cryptomator-1-6-0.png" alt="Cryptomator 1.6.0 Release" />
 
@@ -10,9 +10,9 @@ Download the latest update [here](https://cryptomator.org/downloads/). To suppor
 
 We'd like to thank [gee-whiz](https://www.gee-whiz.de/) and [Proxy Hub](https://proxy-hub.com/) for sponsoring Cryptomator. :rocket:
 
-<table class="my-16" cellspacing="16">
+<table class="my-4" cellspacing="16">
   <tr>
-    <td class="pr-8"><a href="https://www.gee-whiz.de/"><img class="h-64" src="https://cryptomator.org/img/sponsors/geewhiz.svg" alt="gee-whiz"></a></td>
-    <td class="pl-8"><a href="https://proxy-hub.com/"><img class="h-64" src="https://cryptomator.org/img/sponsors/proxyhub.svg" alt="Proxy-Hub"></a></td>
+    <td class="pr-2"><a href="https://www.gee-whiz.de/"><img class="h-16" src="https://cryptomator.org/img/sponsors/geewhiz.svg" alt="gee-whiz"></a></td>
+    <td class="pl-2"><a href="https://proxy-hub.com/"><img class="h-16" src="https://cryptomator.org/img/sponsors/proxyhub.svg" alt="Proxy-Hub"></a></td>
   </tr>
 </table>
