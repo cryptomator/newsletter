@@ -6,11 +6,11 @@
     "watch": "maizzle serve"
   },
   "dependencies": {
-    "@maizzle/framework": "^4.0.0",
+    "@maizzle/framework": "^4.0.2",
     "tailwindcss-box-shadow": "^1.0.0",
-    "tailwindcss-email-variants": "^1.0.0",
+    "tailwindcss-email-variants": "^2.0.0",
     "tailwindcss-mso": "^1.2.0",
-    "markdown-it-emoji": "^2.0.0"
+    "markdown-it-emoji": "^2.0.2"
   },
   "browserslist": [
     "> 1%"
