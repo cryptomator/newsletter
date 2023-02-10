@@ -1,10 +1,10 @@
 <div align="center">
   <p>
-    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
-      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
-    </a>
-    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
-      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    <a href="https://maizzle.com" target="_blank">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./.github/logo-dark.svg">
+        <img alt="Maizzle Starter" src="./.github/logo-light.svg" width="300" height="225" style="max-width: 100%;">
+      </picture>
     </a>
   </p>
   <p>Quickly build HTML emails with utility-first CSS</p>
@@ -60,9 +60,9 @@ The Maizzle framework is open-sourced software licensed under the [MIT license](
 
 [npm]: https://www.npmjs.com/package/@maizzle/framework
 [npm-stats]: https://npm-stat.com/charts.html?package=%40maizzle%2Fframework&from=2019-03-27
-[npm-version-shield]: https://img.shields.io/npm/v/@maizzle/framework.svg?style=flat-square
-[npm-stats-shield]: https://img.shields.io/npm/dt/@maizzle/framework.svg?style=flat-square&color=6875f5
+[npm-version-shield]: https://img.shields.io/npm/v/@maizzle/framework.svg
+[npm-stats-shield]: https://img.shields.io/npm/dt/@maizzle/framework.svg?color=6875f5
 [github-ci]: https://github.com/maizzle/framework/actions
-[github-ci-shield]: https://img.shields.io/github/workflow/status/maizzle/cli/Node.js%20CI?style=flat-square
+[github-ci-shield]: https://github.com/maizzle/framework/actions/workflows/nodejs.yml/badge.svg
 [license]: ./LICENSE
-[license-shield]: https://img.shields.io/npm/l/@maizzle/framework.svg?style=flat-square&color=0e9f6e
+[license-shield]: https://img.shields.io/npm/l/@maizzle/framework.svg?color=0e9f6e
