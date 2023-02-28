@@ -1,12 +1,8 @@
----
-bodyClass: bg-cryptomator-body-bg
----
-
 <extends src="src/layouts/main.html">
   <block name="template">
     <table class="w-full font-sans">
       <tr>
-        <td class="bg-cryptomator-body-bg" align="center">
+        <td class="bg-gray-100 dark:bg-gray-700" align="center">
           <table class="w-150 sm:w-full">
             <tr>
               <td class="p-4" align="center" colspan="2">
@@ -15,7 +11,7 @@ bodyClass: bg-cryptomator-body-bg
                 </a>
               </td>
             </tr>
-            <tr class="text-gray-500 text-xs">
+            <tr class="text-gray-500 dark:text-gray-400 text-xs">
               <td class="pb-2 sm:px-4" align="left">
                 {{{ page.title }}}
               </td>
@@ -27,7 +23,7 @@ bodyClass: bg-cryptomator-body-bg
               <td class="sm:px-4" align="center" colspan="2">
                 <table class="w-full">
                   <tr>
-                    <td class="prose bg-white text-cryptomator-body-color rounded text-base leading-6 px-12 py-8 sm:px-4 sm:py-2">
+                    <td class="prose bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded text-base leading-6 px-12 py-8 sm:px-4 sm:py-2">
                       <md src="src/content/{{ page.content_filename }}"></md>
                     </td>
                   </tr>

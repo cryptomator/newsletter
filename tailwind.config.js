@@ -10,9 +10,7 @@ module.exports = {
     extend: {
       colors: {
         cryptomator: {
-          primary: '#49b04a',
-          'body-bg': '#f7f7f7',
-          'body-color': '#222222'
+          primary: '#49b04a'
         },
       },
       spacing: {
