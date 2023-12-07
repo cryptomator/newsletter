@@ -43,7 +43,7 @@ Upon reclaim, the Vault Admin Password becomes obsolete. You may destroy any cop
 
 ## 📚 Documentation
 
-Please have a look into our documentation to see the [Account Key](https://docs.cryptomator.org/en/latest/hub/your-account/) in action, the new [Vault Management](https://docs.cryptomator.org/en/latest/hub/vault-management/) and the changes regarding [Vault Access](https://docs.cryptomator.org/en/latest/hub/access-vault/).
+Please have a look into our documentation to see the [Account Key](https://docs.cryptomator.org/en/latest/hub/your-account/) in action, the new [Vault Management](https://docs.cryptomator.org/en/latest/hub/vault-management/), changes regarding [Vault Access](https://docs.cryptomator.org/en/latest/hub/access-vault/) and some [FAQs](https://cryptomator.org/blog/2023/12/01/hub-1.3.0/#-frequently-asked-questions).
 
 If you have any questions, please do not hesitate to contact us at hub@cryptomator.org
 
